@@ -1,0 +1,68 @@
+.font{
+    text-transform: capitalize;
+    text-align: center;
+    font-style: italic;
+    font-style: oblique;
+    font-size:20px;
+    color: red;;
+    text-align: center;
+    padding: ;
+    background: green;
+    width: 450px;
+    margin: auto;
+    transition-timing-function: ease-in-out;transition: 5s;
+    
+}
+
+.font:hover{
+    background: blue;
+    color:white;
+}
+.maruf{
+    padding: 50px;
+    width: 350px;
+}
+.maruf1{
+    width:290px;
+    height: 250px;
+    background: black;
+    animation-name: .maruf1;
+    animation-duration: 5s;
+    position: relative;
+    animation-iteration-count: 2;   
+    
+}
+.maruf1:hover{
+    background:red;
+}    
+  .maruf:hover{
+    background:blue;
+} 
+
+.about{
+    color: red;
+    font-size: 30px;
+}
+
+.about:hover{
+    color: green;
+    transition:1.2s;
+    transition-timing-function: ease-in-out;
+    
+}
+
+.about2{font-size: 20px;
+    font-style: italic;
+    background: black;
+    color: white; 
+    }
+.about2:hover{
+    background: aquamarine;
+    color:black;
+    transition: 5s;
+}
+.maruf:hover{
+    opacity: 0.7;
+}
+
+

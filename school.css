@@ -1,0 +1,64 @@
+ul{
+    margin: auto;
+    padding:0;
+    background: #333;
+    overflow: hidden;
+    width: 780px
+    
+        
+}
+ul li {
+    float: left;
+    list-style-type: none;
+        
+}
+ul li a{
+    color:white;
+    padding: 12px 16px;
+    text-transform: capitalize;
+    text-decoration: none;
+ display: inline-block
+
+}
+ul li a:hover{
+    color: aqua;
+    background: red;
+}
+.dropdown-content a{
+    display: block;
+    background:white;
+    color: black
+      
+}
+.dropdown-content{
+    display: none;
+    position: absolute;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0,0.3)
+}
+.dropdown:hover .dropdown-content{
+    display: block;
+}
+
+.maruf{
+    background: black; transition: 5s;
+    transition-timing-function:ease-in-out;
+    
+}
+
+.maruf1{
+   height:250px;
+    width:290px;
+    background: ;
+    transition: 5s;
+    transition-timing-function:ease-in-out;
+    padding: 60px;
+    background: black;
+    padding-top: 35px;
+    
+}
+
+.maruf1:hover{width: 290px;
+    height: 250px;
+
+transform: rotate(360deg)}
+
